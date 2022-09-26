@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@379&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background: rgb(160,162,40);
+background: linear-gradient(90deg, rgba(160,162,40,1) 0%, rgba(212,215,154,1) 50%, rgba(160,162,40,1) 100%);
+        }
+        h3{
+            text-align: center;
+            font-size: larger;
+            font-weight: bolder;
+            font-size: 30px;
+        }
+        .form {
+            border: 5px solid black;
+            width: 400px;
+            padding: 10px;
+            margin-left: 500px;
+            background-color: rgb(235, 235, 161);
+            margin: auto;
+        }
+        .form input{
+          text-align: center;
+
+        }
+
+        .heading {
+            margin-left: 500px;
+            font-size: 20px;
+            font-family: monospace;
+            font-style: italic;
+            border: 5px solid black;
+            width: 420px;
+            margin: auto;
+
+        }
+
+        .btn {
+            background-color: rgb(240, 148, 125);
+            border: 2px solid black;
+            border-radius: 4px;
+            height: 20px;
+        }
+
+        .btn:hover {
+            background-color: rgb(221, 74, 74);
+            border-radius: 4px;
+
+        }
+
+        .text {
+            background-color: rgb(210, 222, 235);
+
+
+        }
+
+        .label {
+            font-style: inherit;
+            font-family: 'Roboto Slab', serif;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="heading">
+            <h3><strong> Apply for job</strong></h3>
+        </div>
+    </header>
+    <div class="form">
+        
+
+        <div class="label">
+            <label for="fname">FirstName:</label> <input  type="text"  id="fname" class="text"  >
+            <br></br>
+            <label for="lname">LastName:</label> <input type="text" id="lname" class="text">
+            <br></br>
+            <label for="uname">UserName:</label> <input type="text" id="uname" class="text">
+            <br></br>
+            <label for="psw">Password:</label> <input type="password" id="pwd" class="text">
+            <br></br>
+            <label for="Email">E-mail:</label> <input type="email" id="Email" class="text">
+            <br></br>
+            <label for="No">Number:</label> <input type="number" id="No" class="text">
+            <br></br>
+            <label for="bday">Date of Birth:</label> <input type="date" id="bday" class="text">
+            <br></br>
+            <label for="sex">Sex:</label> Male <input type="radio" id="Sex" name="sex"> Female <input type="radio"
+                name="sex" id="sex">
+
+            <br>
+            <br>
+            
+            <div>
+                <label for="hobby">Hobby</label>
+                <select name="myhobby" id="hobby">
+                    <option value="sleep">Sleeping</option> 
+                    <option value="eat">Eating</option>
+                    <option value="time pass">Time Pass</option>
+                    <option value="movie">Movie</option>
+                    <option value="movie">Other</option>
+                </select>
+            </div>
+        </div>
+
+
+        <br>
+        <div>
+
+            <head><strong>Question Answer</strong></head>
+        </div>
+        <br>
+        <div>
+            <b> Mental issue?</b>
+            <div>Yes:<input type="radio" name="a"> No:<input type="radio" name="a"></div>
+        </div>
+        <br>
+        <div>
+            <b> Any allergies?</b>
+            <div>Yes:<input type="radio" name="a"> No:<input type="radio" name="a"></div>
+        </div>
+        <br>
+        <div>
+            <b> Why we hier you?</b>
+            <div><textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <br>
+
+        <div class="button">
+            <button class="btn"><strong>Submit</strong></button> &nbsp;&nbsp;&nbsp;
+            <button class="btn"><strong>Reset</strong></button>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
+
